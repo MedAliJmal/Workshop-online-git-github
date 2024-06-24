@@ -1,0 +1,14 @@
+---------------------------------- GIT & GITHUB -----------------------------------
+Github : is an online platform used to save codes ! (projects)
+
+GIT : VCS : Version Control System : Manipulation des version de codes !
+     => Advantages of git :
+     - Collaboration : you can work on the same project in a short time with multiple devs ! (git-flow)
+     - Open Source : for free
+     - A huge disk space (unlimited space)
+     - High network speed
+     - Data Replication (git clone / git fork)
+
+------------------- HOW TO UPLOAD FILES FROM PC TO GITHUB USING VCS GIT ---------------------
+
+1 - git init : initialize empty git repository (local repository) [.git] (dossier caché)

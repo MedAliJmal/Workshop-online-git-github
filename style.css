@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 0.8436624649859944) 100%
+  );
+  /* background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 0.8436624649859944) 100%
+  ); */
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulaire input {
+  width: 600px;
+  height: 50px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  /* margin: 1%; */
+  text-align: center;
+}
+
+.formulaire textarea {
+  width: 600px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  height: 150px;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 1%;
+  text-align: center;
+}
+
+.formulaire button {
+  width: 600px;
+  height: 50px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  /* margin: 1%; */
+  text-align: center;
+  background-color: #a7c4ea;
+  border: 2px solid rgb(119, 119, 119);
+  transition: 1s;
+}
+
+.formulaire button:hover {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(148, 187, 233, 0.8436624649859944) 0%,
+    rgba(238, 174, 202, 1) 100%
+  );
+  border: 2px solid #ffffff;
+  color: white;
+}
+
+header h1 {
+  text-align: center;
+  margin: 1%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#filter-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1%;
+}
+
+#filter-container select {
+  background: none;
+  border: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+}
+
+#filter-container select option {
+  outline: none;
+  color: #000000;
+}
+
+#task-list h4 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1, 5 rem;
+  margin: 1rem;
+}
+
+#task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cards-container section {
+  width: 400px;
+  height: 50px;
+  background-color: #a7c4ea;
+  border: rgb(238, 174, 202) 2px solid;
+  margin: 4%;
+  text-align: center;
+  transition: 1s;
+}
+@keyframes CARDPARAG {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.cards-container section div {
+  display: none;
+  animation: CARDPARAG 4s ease 0s 1 normal forwards;
+}
+
+.cards-container section:hover {
+  height: 150px;
+  box-shadow: 0px 0px 32px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 32px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 32px -7px rgba(0, 0, 0, 0.75);
+}
+
+.cards-container section:hover div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container section div button {
+  background-color: rgb(238, 174, 202);
+  width: 100px;
+  margin: 1%;
+  border-radius: 8px;
+  padding: 1%;
+}
+
+.DEADLINE {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+.cards-container section div p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+section h3 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
