@@ -12,3 +12,10 @@ GIT : VCS : Version Control System : Manipulation des version de codes !
 ------------------- HOW TO UPLOAD FILES FROM PC TO GITHUB USING VCS GIT ---------------------
 
 1 - git init : initialize empty git repository (local repository) [.git] (dossier caché)
+2 - git add . : selects all the files in the directory and add it to the staging area. (Virtual Space : Filering files) 
+/ to check what's happening in the stagin area we use a command : git status
+3 - git commit -m : confirm the selected files included in the staging area (add a version name)
+/ to check the commit histroy we use git log
+4 - git branch -M Main : define the branch you're working on
+5 - git remote : define the url of the remote repository
+6 - git push : its the final step to deliver the files
